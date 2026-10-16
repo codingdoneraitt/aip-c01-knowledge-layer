@@ -1,0 +1,25 @@
+# Fetched third-party content (AWS docs etc). Only manifests and fetch code are published.
+sources/
+data/
+
+# Local tooling config (machine-specific paths)
+uv.toml
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+dist/
+*.egg-info/
+
+# Secrets and env
+.env
+.env.*
+*.pem
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
