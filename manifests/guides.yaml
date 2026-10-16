@@ -1,0 +1,12 @@
+# Decision guides (docs-hosted) and Solutions Library guidance pages relevant to GenAI.
+docs_guides:
+  - id: decision-guides
+    title: "AWS Decision Guides"
+    base_url: https://docs.aws.amazon.com/decision-guides/latest/decision-guides
+    source_type: guide
+    exam_domains: [1, 2, 4]
+solutions:
+  sitemap: https://aws.amazon.com/sitemaps/sitemap_solutions/
+  path_prefixes: ["/solutions/guidance/", "/solutions/implementations/"]
+  include: '(generative|bedrock|\brag\b|agentic|agents?|llm|genai|gen-ai|foundation|embedding|knowledge|guardrail|mcp|multimodal|prompt)'
+  exam_domains: [1, 2, 3, 4, 5]

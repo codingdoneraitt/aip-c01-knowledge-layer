@@ -1,0 +1,21 @@
+# Prices from the public AWS Price List bulk API (no credentials). Regions chosen for a Netherlands-based builder
+# plus the main US regions. Offers missing from a region are skipped and logged.
+base_url: https://pricing.us-east-1.amazonaws.com
+regions: [us-east-1, us-west-2, eu-west-1, eu-central-1]
+offers:
+  - {id: bedrock, offer_code: AmazonBedrock, title: "Amazon Bedrock", services: [bedrock], exam_domains: [1, 4]}
+  - {id: bedrock-models, offer_code: AmazonBedrockFoundationModels, title: "Amazon Bedrock foundation models", services: [bedrock], exam_domains: [1, 4]}
+  - {id: bedrock-service, offer_code: AmazonBedrockService, title: "Amazon Bedrock service features", services: [bedrock], exam_domains: [1, 3, 4]}
+  - {id: agentcore, offer_code: AmazonBedrockAgentCore, title: "Amazon Bedrock AgentCore", services: [bedrock-agentcore], exam_domains: [2, 4]}
+  - {id: opensearch, offer_code: AmazonES, title: "Amazon OpenSearch Service (incl. Serverless)", services: [opensearch], exam_domains: [1, 4]}
+  - {id: s3, offer_code: AmazonS3, title: "Amazon S3 (incl. S3 Vectors)", services: [s3, s3-vectors], exam_domains: [1, 4]}
+  - {id: lambda, offer_code: AWSLambda, title: "AWS Lambda", services: [lambda], exam_domains: [2, 4]}
+  - {id: stepfunctions, offer_code: AmazonStates, title: "AWS Step Functions", services: [step-functions], exam_domains: [2, 4]}
+  - {id: apigateway, offer_code: AmazonApiGateway, title: "Amazon API Gateway", services: [api-gateway], exam_domains: [2, 4]}
+  - {id: dynamodb, offer_code: AmazonDynamoDB, title: "Amazon DynamoDB", services: [dynamodb], exam_domains: [1, 4]}
+  - {id: kendra, offer_code: AmazonKendra, title: "Amazon Kendra", services: [kendra], exam_domains: [1, 4]}
+  - {id: cloudwatch, offer_code: AmazonCloudWatch, title: "Amazon CloudWatch", services: [cloudwatch], exam_domains: [4]}
+  - {id: comprehend, offer_code: comprehend, title: "Amazon Comprehend", services: [comprehend], exam_domains: [1, 3]}
+  - {id: textract, offer_code: AmazonTextract, title: "Amazon Textract", services: [textract], exam_domains: [1]}
+  - {id: transcribe, offer_code: transcribe, title: "Amazon Transcribe", services: [transcribe], exam_domains: [1]}
+  - {id: q, offer_code: AmazonQ, title: "Amazon Q", services: [q-business, q-developer], exam_domains: [2]}

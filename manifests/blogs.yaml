@@ -1,0 +1,7 @@
+# Blog posts discovered through https://aws.amazon.com/sitemaps/sitemap_blogs/index/ (RSS only exposes the latest 20).
+# Relevance is decided from the post slug before downloading; posts older than published_after are dropped after fetch.
+blogs: [machine-learning, aws, architecture, database, big-data, security, devops, compute, containers, developer]
+include: '\b(bedrock|agentcore|strands|agentic|agents?|rag|retrieval|knowledge-bases?|guardrails?|mcp|model-context-protocol|embeddings?|vector|generative|genai|gen-ai|llms?|prompts?|prompting|foundation-models?|fine-tun\w*|s3-vectors|opensearch|evaluat\w*|observab\w*|multi-agent|nova|titan|claude|inference|semantic|reranking|chunking)\b'
+exclude: '\b(sagemaker-canvas|quicksight|connect|alexa|lex|polly)\b'
+published_after: 2024-06-01
+exam_domains: []

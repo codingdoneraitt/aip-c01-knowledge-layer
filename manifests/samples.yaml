@@ -1,0 +1,33 @@
+# Official AWS GitHub repositories. Only repos whose LICENSE is in allowed_licenses are ingested.
+allowed_licenses: [MIT, MIT-0, Apache-2.0]
+repos:
+  - id: bedrock-samples
+    repo: aws-samples/amazon-bedrock-samples
+    include: ["README.md", "**/README.md", "**/*.ipynb"]
+    exam_domains: [1, 2, 3, 4, 5]
+    services: [bedrock]
+  - id: bedrock-workshop
+    repo: aws-samples/amazon-bedrock-workshop
+    include: ["README.md", "**/README.md", "**/*.ipynb"]
+    exam_domains: [1, 2, 3]
+    services: [bedrock]
+  - id: agentcore-samples
+    repo: awslabs/amazon-bedrock-agentcore-samples
+    include: ["README.md", "**/README.md", "**/*.ipynb", "docs/**/*.md"]
+    exam_domains: [2, 3, 4, 5]
+    services: [bedrock-agentcore]
+  - id: strands-sdk-python
+    repo: strands-agents/sdk-python
+    include: ["README.md"]
+    exam_domains: [2]
+    services: [strands-agents]
+  - id: aws-mcp
+    repo: awslabs/mcp
+    include: ["README.md", "docs/**/*.md", "src/*/README.md"]
+    exam_domains: [1, 2]
+    services: [mcp]
+  - id: agent-squad
+    repo: awslabs/agent-squad
+    include: ["README.md", "docs/src/content/docs/**/*.md", "docs/src/content/docs/**/*.mdx"]
+    exam_domains: [2]
+    services: [agent-squad]

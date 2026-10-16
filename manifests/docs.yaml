@@ -1,0 +1,294 @@
+# Guides crawled through docs.aws.amazon.com sitemaps. Derived from the AIP-C01 in-scope services.
+# exam_domains is a coarse guide-level mapping, not a per-page claim.
+guides:
+  - id: aip-c01-exam-guide
+    title: "AWS Certified Generative AI Developer - Professional (AIP-C01) Exam Guide"
+    base_url: https://docs.aws.amazon.com/aws-certification/latest/ai-professional-01
+    source_type: exam-guide
+    exam_domains: [1, 2, 3, 4, 5]
+    services: []
+  - id: bedrock-userguide
+    title: "Amazon Bedrock User Guide"
+    base_url: https://docs.aws.amazon.com/bedrock/latest/userguide
+    source_type: docs
+    exam_domains: [1, 2, 3, 4, 5]
+    services: [bedrock, bedrock-knowledge-bases, bedrock-guardrails, bedrock-prompt-management, bedrock-prompt-flows, bedrock-agents]
+  - id: bedrock-agentcore-devguide
+    title: "Amazon Bedrock AgentCore Developer Guide"
+    base_url: https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide
+    source_type: docs
+    exam_domains: [2, 3, 4, 5]
+    services: [bedrock-agentcore]
+  - id: sagemaker-dg
+    title: "Amazon SageMaker AI Developer Guide"
+    base_url: https://docs.aws.amazon.com/sagemaker/latest/dg
+    source_type: docs
+    exam_domains: [1, 2, 3, 5]
+    services: [sagemaker]
+  - id: opensearch-dg
+    title: "Amazon OpenSearch Service Developer Guide"
+    base_url: https://docs.aws.amazon.com/opensearch-service/latest/developerguide
+    source_type: docs
+    exam_domains: [1, 4]
+    services: [opensearch]
+  - id: stepfunctions-dg
+    title: "AWS Step Functions Developer Guide"
+    base_url: https://docs.aws.amazon.com/step-functions/latest/dg
+    source_type: docs
+    exam_domains: [1, 2, 3]
+    services: [step-functions]
+  - id: lambda-dg
+    title: "AWS Lambda Developer Guide"
+    base_url: https://docs.aws.amazon.com/lambda/latest/dg
+    source_type: docs
+    exam_domains: [1, 2]
+    services: [lambda]
+  - id: apigateway-dg
+    title: "Amazon API Gateway Developer Guide"
+    base_url: https://docs.aws.amazon.com/apigateway/latest/developerguide
+    source_type: docs
+    exam_domains: [2]
+    services: [api-gateway]
+  - id: cloudwatch-monitoring
+    title: "Amazon CloudWatch User Guide"
+    base_url: https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring
+    source_type: docs
+    exam_domains: [3, 4, 5]
+    services: [cloudwatch]
+  - id: cloudwatch-logs
+    title: "Amazon CloudWatch Logs User Guide"
+    base_url: https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs
+    source_type: docs
+    exam_domains: [3, 4, 5]
+    services: [cloudwatch-logs]
+  - id: xray-dg
+    title: "AWS X-Ray Developer Guide"
+    base_url: https://docs.aws.amazon.com/xray/latest/devguide
+    source_type: docs
+    exam_domains: [2, 4, 5]
+    services: [x-ray]
+  - id: cloudtrail-ug
+    title: "AWS CloudTrail User Guide"
+    base_url: https://docs.aws.amazon.com/awscloudtrail/latest/userguide
+    source_type: docs
+    exam_domains: [1, 3]
+    services: [cloudtrail]
+  - id: iam-ug
+    title: "AWS IAM User Guide"
+    base_url: https://docs.aws.amazon.com/IAM/latest/UserGuide
+    source_type: docs
+    exam_domains: [2, 3]
+    services: [iam]
+  - id: kms-dg
+    title: "AWS KMS Developer Guide"
+    base_url: https://docs.aws.amazon.com/kms/latest/developerguide
+    source_type: docs
+    exam_domains: [3]
+    services: [kms]
+  - id: secretsmanager-ug
+    title: "AWS Secrets Manager User Guide"
+    base_url: https://docs.aws.amazon.com/secretsmanager/latest/userguide
+    source_type: docs
+    exam_domains: [3]
+    services: [secrets-manager]
+  - id: macie-ug
+    title: "Amazon Macie User Guide"
+    base_url: https://docs.aws.amazon.com/macie/latest/user
+    source_type: docs
+    exam_domains: [3]
+    services: [macie]
+  - id: comprehend-dg
+    title: "Amazon Comprehend Developer Guide"
+    base_url: https://docs.aws.amazon.com/comprehend/latest/dg
+    source_type: docs
+    exam_domains: [1, 3]
+    services: [comprehend]
+  - id: lakeformation-dg
+    title: "AWS Lake Formation Developer Guide"
+    base_url: https://docs.aws.amazon.com/lake-formation/latest/dg
+    source_type: docs
+    exam_domains: [3]
+    services: [lake-formation]
+  - id: glue-dg
+    title: "AWS Glue User Guide"
+    base_url: https://docs.aws.amazon.com/glue/latest/dg
+    source_type: docs
+    exam_domains: [1, 3]
+    services: [glue]
+  - id: s3-ug
+    title: "Amazon S3 User Guide"
+    base_url: https://docs.aws.amazon.com/AmazonS3/latest/userguide
+    source_type: docs
+    exam_domains: [1, 3]
+    services: [s3, s3-vectors]
+  - id: dynamodb-dg
+    title: "Amazon DynamoDB Developer Guide"
+    base_url: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide
+    source_type: docs
+    exam_domains: [1, 2]
+    services: [dynamodb]
+  - id: aurora-ug
+    title: "Amazon Aurora User Guide"
+    base_url: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide
+    source_type: docs
+    exam_domains: [1]
+    services: [aurora]
+  - id: elasticache-dg
+    title: "Amazon ElastiCache Developer Guide"
+    base_url: https://docs.aws.amazon.com/AmazonElastiCache/latest/dg
+    source_type: docs
+    exam_domains: [1, 4]
+    services: [elasticache]
+  - id: neptune-ug
+    title: "Amazon Neptune User Guide"
+    base_url: https://docs.aws.amazon.com/neptune/latest/userguide
+    source_type: docs
+    exam_domains: [1]
+    services: [neptune]
+  - id: documentdb-dg
+    title: "Amazon DocumentDB Developer Guide"
+    base_url: https://docs.aws.amazon.com/documentdb/latest/developerguide
+    source_type: docs
+    exam_domains: [1]
+    services: [documentdb]
+  - id: kendra-dg
+    title: "Amazon Kendra Developer Guide"
+    base_url: https://docs.aws.amazon.com/kendra/latest/dg
+    source_type: docs
+    exam_domains: [1]
+    services: [kendra]
+  - id: textract-dg
+    title: "Amazon Textract Developer Guide"
+    base_url: https://docs.aws.amazon.com/textract/latest/dg
+    source_type: docs
+    exam_domains: [1]
+    services: [textract]
+  - id: transcribe-dg
+    title: "Amazon Transcribe Developer Guide"
+    base_url: https://docs.aws.amazon.com/transcribe/latest/dg
+    source_type: docs
+    exam_domains: [1]
+    services: [transcribe]
+  - id: rekognition-dg
+    title: "Amazon Rekognition Developer Guide"
+    base_url: https://docs.aws.amazon.com/rekognition/latest/dg
+    source_type: docs
+    exam_domains: [1]
+    services: [rekognition]
+  - id: lexv2-dg
+    title: "Amazon Lex V2 Developer Guide"
+    base_url: https://docs.aws.amazon.com/lexv2/latest/dg
+    source_type: docs
+    exam_domains: [2]
+    services: [lex]
+  - id: qdeveloper-ug
+    title: "Amazon Q Developer User Guide"
+    base_url: https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug
+    source_type: docs
+    exam_domains: [2]
+    services: [q-developer]
+  - id: qbusiness-ug
+    title: "Amazon Q Business User Guide"
+    base_url: https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug
+    source_type: docs
+    exam_domains: [2]
+    services: [q-business]
+  - id: appconfig-ug
+    title: "AWS AppConfig User Guide"
+    base_url: https://docs.aws.amazon.com/appconfig/latest/userguide
+    source_type: docs
+    exam_domains: [1, 2]
+    services: [appconfig]
+  - id: eventbridge-ug
+    title: "Amazon EventBridge User Guide"
+    base_url: https://docs.aws.amazon.com/eventbridge/latest/userguide
+    source_type: docs
+    exam_domains: [2]
+    services: [eventbridge]
+  - id: ecs-dg
+    title: "Amazon ECS Developer Guide"
+    base_url: https://docs.aws.amazon.com/AmazonECS/latest/developerguide
+    source_type: docs
+    exam_domains: [2]
+    services: [ecs]
+  - id: waf-dg
+    title: "AWS WAF Developer Guide"
+    base_url: https://docs.aws.amazon.com/waf/latest/developerguide
+    source_type: docs
+    exam_domains: [3]
+    services: [waf]
+  - id: privatelink-guide
+    title: "AWS PrivateLink Guide"
+    base_url: https://docs.aws.amazon.com/vpc/latest/privatelink
+    source_type: docs
+    exam_domains: [3]
+    services: [privatelink]
+  - id: cognito-dg
+    title: "Amazon Cognito Developer Guide"
+    base_url: https://docs.aws.amazon.com/cognito/latest/developerguide
+    source_type: docs
+    exam_domains: [2, 3]
+    services: [cognito]
+  - id: cloudformation-ug
+    title: "AWS CloudFormation User Guide"
+    base_url: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide
+    source_type: docs
+    exam_domains: [2]
+    services: [cloudformation]
+  - id: cdk-v2-guide
+    title: "AWS CDK Developer Guide"
+    base_url: https://docs.aws.amazon.com/cdk/v2/guide
+    source_type: docs
+    exam_domains: [2]
+    services: [cdk]
+  - id: codepipeline-ug
+    title: "AWS CodePipeline User Guide"
+    base_url: https://docs.aws.amazon.com/codepipeline/latest/userguide
+    source_type: docs
+    exam_domains: [2]
+    services: [codepipeline]
+  - id: amplify-ug
+    title: "AWS Amplify Hosting User Guide"
+    base_url: https://docs.aws.amazon.com/amplify/latest/userguide
+    source_type: docs
+    exam_domains: [2]
+    services: [amplify]
+  - id: cli-ug
+    title: "AWS CLI User Guide"
+    base_url: https://docs.aws.amazon.com/cli/latest/userguide
+    source_type: docs
+    exam_domains: [2]
+    services: [cli]
+  - id: cost-management-ug
+    title: "AWS Cost Management User Guide"
+    base_url: https://docs.aws.amazon.com/cost-management/latest/userguide
+    source_type: docs
+    exam_domains: [4]
+    services: [cost-explorer, cost-anomaly-detection]
+  - id: genai-lens
+    title: "AWS Well-Architected Generative AI Lens"
+    base_url: https://docs.aws.amazon.com/wellarchitected/latest/generative-ai-lens
+    source_type: whitepaper
+    exam_domains: [1, 3, 4, 5]
+    services: [well-architected]
+  - id: well-architected-framework
+    title: "AWS Well-Architected Framework"
+    base_url: https://docs.aws.amazon.com/wellarchitected/latest/framework
+    source_type: whitepaper
+    exam_domains: [4]
+    services: [well-architected]
+  - id: pg-rag-options
+    title: "Prescriptive Guidance: Retrieval Augmented Generation options"
+    base_url: https://docs.aws.amazon.com/prescriptive-guidance/latest/retrieval-augmented-generation-options
+    source_type: whitepaper
+    exam_domains: [1]
+    services: [rag]
+
+# Documentation sites that publish an llms.txt index of markdown pages.
+llms_sites:
+  - id: strands-agents-docs
+    title: "Strands Agents documentation"
+    llms_url: https://strandsagents.com/llms.txt
+    include: '/docs/'
+    exam_domains: [2, 4, 5]
+    services: [strands-agents]

@@ -1,0 +1,14 @@
+# Official AWS event talks. channel_id is verified against every video, so look-alike channels are rejected.
+# Transcripts are written to sources/ (gitignored) and are not redistributed.
+channels:
+  - id: aws-events
+    name: AWS Events
+    channel_id: UCdoadna9HFHsxXWhafhNvKw
+    videos_url: https://www.youtube.com/@AWSEventsChannel/videos
+    include: '\b(bedrock|agentcore|agentic|agents?|rag|retrieval|knowledge bases?|guardrails?|mcp|strands|generative ai|genai|gen ai|foundation models?|llms?|prompt\w*|embeddings?|vector|fine-tun\w*|sagemaker|nova|inference|evaluat\w*|observab\w*)\b'
+    exclude: '\b(keynote|recap|trailer|highlights?)\b'
+    min_duration_s: 900
+    uploaded_after: 2025-01-01
+    scan_limit: 1500
+    max_videos: 150
+    exam_domains: []

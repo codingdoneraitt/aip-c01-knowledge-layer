@@ -1,0 +1,45 @@
+[project]
+name = "aip-c01-knowledge-layer"
+version = "0.1.0"
+description = "Open study knowledge layer for the AWS Generative AI Developer Pro exam (AIP-C01)"
+requires-python = ">=3.12"
+dependencies = [
+  "aipc01-core",
+  "aipc01-fetch-docs",
+  "aipc01-fetch-whitepapers",
+  "aipc01-fetch-blogs",
+  "aipc01-fetch-guides",
+  "aipc01-fetch-pricing",
+  "aipc01-fetch-samples",
+  "aipc01-fetch-talks",
+]
+
+[dependency-groups]
+dev = ["pytest>=8", "respx>=0.21", "ruff>=0.6"]
+
+[tool.uv.workspace]
+members = ["packages/*"]
+
+[tool.uv.sources]
+aipc01-core = { workspace = true }
+aipc01-fetch-docs = { workspace = true }
+aipc01-fetch-whitepapers = { workspace = true }
+aipc01-fetch-blogs = { workspace = true }
+aipc01-fetch-guides = { workspace = true }
+aipc01-fetch-pricing = { workspace = true }
+aipc01-fetch-samples = { workspace = true }
+aipc01-fetch-talks = { workspace = true }
+
+[tool.pytest.ini_options]
+testpaths = ["packages"]
+addopts = "-q --import-mode=importlib"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.ruff.lint.per-file-ignores]
+"**/tests/**" = ["E501"]
