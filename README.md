@@ -12,13 +12,9 @@ A retrieval setup on Amazon Bedrock Knowledge Bases, with an MCP server in front
 
 ## Architecture
 
-```
-Public sources -> fetch packages (this repo) -> sources/ (markdown + metadata sidecars)
-  -> S3 -> Bedrock Knowledge Bases (one per config) -> Retrieve API -> MCP server -> any AI client
+![Architecture diagram](docs/architecture.png)
 
-Eval harness: fixed question set -> each config -> quality, latency, cost
-Quiz generator: missed topics -> retrieval -> new practice questions
-```
+Source: [`docs/architecture.drawio`](docs/architecture.drawio) (edit at [diagrams.net](https://app.diagrams.net)).
 
 One shared ingestion pipeline feeds every config. The embedding model is fixed, so only chunking and vector store change between configs.
 
