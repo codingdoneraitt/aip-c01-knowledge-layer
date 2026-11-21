@@ -11,12 +11,12 @@
         </mxCell>
 
         <!-- Public sources -->
-        <mxCell id="n1" value="Public sources" style="sketch=0;outlineConnect=0;fontColor=#232F3E;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;spacing=4;shape=mxgraph.aws4.internet_alt1;" vertex="1" parent="1">
+        <mxCell id="n1" value="Public sources" style="sketch=0;outlineConnect=0;fontColor=#232F3E;fillColor=#545B64;strokeColor=#545B64;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;spacing=4;shape=mxgraph.aws4.internet_alt1;" vertex="1" parent="1">
           <mxGeometry x="40" y="150" width="80" height="60" as="geometry" />
         </mxCell>
 
         <!-- Fetch pipeline -->
-        <mxCell id="n2" value="Fetch pipeline" style="sketch=0;outlineConnect=0;fontColor=#232F3E;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;spacing=4;shape=mxgraph.aws4.source_code;" vertex="1" parent="1">
+        <mxCell id="n2" value="Fetch pipeline" style="sketch=0;outlineConnect=0;fontColor=#232F3E;fillColor=#545B64;strokeColor=#545B64;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;spacing=4;shape=mxgraph.aws4.source_code;" vertex="1" parent="1">
           <mxGeometry x="200" y="140" width="80" height="80" as="geometry" />
         </mxCell>
 
@@ -39,22 +39,22 @@
         </mxCell>
 
         <!-- MCP server -->
-        <mxCell id="n6" value="MCP server" style="sketch=0;outlineConnect=0;fontColor=#232F3E;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;spacing=4;shape=mxgraph.aws4.servers;" vertex="1" parent="1">
+        <mxCell id="n6" value="MCP server" style="sketch=0;outlineConnect=0;fontColor=#232F3E;fillColor=#545B64;strokeColor=#545B64;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;spacing=4;shape=mxgraph.aws4.servers;" vertex="1" parent="1">
           <mxGeometry x="940" y="140" width="80" height="80" as="geometry" />
         </mxCell>
 
         <!-- AI client -->
-        <mxCell id="n7" value="AI client" style="sketch=0;outlineConnect=0;fontColor=#232F3E;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;spacing=4;shape=mxgraph.aws4.client;" vertex="1" parent="1">
+        <mxCell id="n7" value="AI client" style="sketch=0;outlineConnect=0;fontColor=#232F3E;fillColor=#545B64;strokeColor=#545B64;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;spacing=4;shape=mxgraph.aws4.client;" vertex="1" parent="1">
           <mxGeometry x="1100" y="142" width="80" height="76" as="geometry" />
         </mxCell>
 
         <!-- Eval harness -->
-        <mxCell id="n8" value="Eval harness" style="sketch=0;outlineConnect=0;fontColor=#232F3E;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;spacing=4;shape=mxgraph.aws4.metrics;" vertex="1" parent="1">
+        <mxCell id="n8" value="Eval harness" style="sketch=0;outlineConnect=0;fontColor=#232F3E;fillColor=#545B64;strokeColor=#545B64;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;spacing=4;shape=mxgraph.aws4.metrics;" vertex="1" parent="1">
           <mxGeometry x="620" y="380" width="80" height="80" as="geometry" />
         </mxCell>
 
         <!-- Quiz generator -->
-        <mxCell id="n9" value="Quiz generator" style="sketch=0;outlineConnect=0;fontColor=#232F3E;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;spacing=4;shape=mxgraph.aws4.question;" vertex="1" parent="1">
+        <mxCell id="n9" value="Quiz generator" style="sketch=0;outlineConnect=0;fontColor=#232F3E;fillColor=#545B64;strokeColor=#545B64;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;spacing=4;shape=mxgraph.aws4.question;" vertex="1" parent="1">
           <mxGeometry x="860" y="380" width="80" height="80" as="geometry" />
         </mxCell>
 
